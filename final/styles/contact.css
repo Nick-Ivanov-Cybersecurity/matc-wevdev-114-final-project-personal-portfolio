@@ -1,0 +1,119 @@
+/* style for contact page's body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000, #444);
+    color: white;
+    margin: auto;
+    width: 960px;
+    border: 3px solid #ffffff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+/* individual section style */
+section {
+    padding: 0 2em 1em;
+}
+
+/* style of form */
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    text-align: left;
+    width: auto;
+    float: none;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 0.5em 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* headings */
+h2 {
+    color: #ffffff;
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* buttons */
+#buttons {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#buttons input {
+    width: auto;
+    background-color: #000;
+    color: white;
+    border: 1px solid #afafaf;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#buttons input:hover {
+    background-color: #ffffff;
+}
+
+/* icons (like thumbs up, down, etc.)*/
+input:required:invalid {
+    background-image: url(../images/required.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #333;
+}
+
+input:focus:invalid {
+    background-image: url(../images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #333;
+}
+
+input:required:valid {
+    background-image: url(../images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #333;
+}
+
+/* placeholder (when nothing is typed into the form) */
+::placeholder {
+    color: #aaa;
+}
+
+/* nav bar (repasted since it has its own style) */
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+/* nav bar links/bullets/hyperlinks */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

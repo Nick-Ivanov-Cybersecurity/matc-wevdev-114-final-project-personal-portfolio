@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="Contact form for Nicholas Ivanov">
+    <meta name="keywords" content="Nick, Nicholas, Contact, Nicks Kicks LLC, Connect, Nicks Kicks, Contacts">
+	<title>Contact Nicholas</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+	<nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="nickskicks.html">Nick's Kicks LLC</a></li>
+            <li><a href="career.html">Workplace Experience</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="education.html">Schooling</a></li>
+        </ul>
+    </nav>
+	<h1>Contact Me!</h1>
+	<form action="sendmail.php" method="post" name="contact_form" id="contact_form">
+		<fieldset>
+        	<legend>Contact Information</legend>
+            <label for="first_name">First Name:</label>
+			<input type="text" name="first_name" id="first_name" required><br>
+			<label for="last_name">Last Name:</label>
+			<input type="text" name="last_name" id="last_name" required><br>
+        	<label for="email">Email Address:</label>
+        	<input type="email" name="email" id="email" required><br>
+        	<label for="verify">Re-Type Email:</label>
+        	<input type="email" name="verify" id="verify" required autocomplete="off"><br>
+			<label for="phone">Phone Number:</label>
+			<input type="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="414-xxx-xxxx" required><br>
+		</fieldset>
+		<fieldset>
+    		<legend>Message Information</legend>
+			<label for="reservation_date">Reservation Date:</label>
+			<input type="date" name="reservation_date" id="reservation_date" required><br>
+			<label for="subject">Subject:</label>         
+            <select name="subject" id="subject">
+                <option value="Employment">Employment</option>
+                <option value="Business">Business</option>
+                <option value="Personal">Personal</option>
+                <option value="Other">Other</option>
+            </select><br>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="4" required></textarea>
+		</fieldset>
+		<fieldset id="buttons">
+			<legend>Submit Your Email Message</legend>
+			<label>&nbsp;</label>
+			<input type="submit" id="submit" value="Submit Message">
+			<input type="reset" id="reset" value="Reset"><br>
+		</fieldset>
+	</form>
+</body>
+</html>

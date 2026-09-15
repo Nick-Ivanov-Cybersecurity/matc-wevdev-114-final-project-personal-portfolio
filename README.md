@@ -1,2 +1,10 @@
-# matc-wevdev-114-final-project-personal-portfolio
-Spring 2025 MATC WEBDEV-114 final project, provided as supporting documentation for a UWM course-equivalency and transfer-credit review.
+MATC WEBDEV-114 Final Project – Personal Portfolio
+
+This repository contains my final project completed for WEBDEV-114 at Milwaukee Area Technical College during Spring 2025.
+
+The repository is being provided as supporting documentation for a University of Wisconsin–Milwaukee course-equivalency review, demonstrating the HTML/CSS concepts and web development skills covered in my previous coursework.
+
+Student: Nicholas Ivanov
+Course: WEBDEV-114
+Institution: Milwaukee Area Technical College
+Semester: Spring 2025
